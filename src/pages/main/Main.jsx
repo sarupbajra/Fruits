@@ -6,7 +6,7 @@ export default function Main() {
     console.log("naviagtetete",navigate)
   return (
     <div className='main'>
-        hello sorup
+        List
         {fruits.map((product,index)=>{
             return <div key={index} onClick={()=>{navigate(`/product/${index}/${product}`)}}>{product}</div>
         })}
